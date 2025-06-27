@@ -1,0 +1,37 @@
+// Display a welcome message in the browser console
+console.log("Welcome to our Education Website!");
+
+// Show current date on the webpage
+function showDate() {
+    const today = new Date();
+    const date = today.toDateString();
+    document.getElementById("date").innerText = date;
+}
+
+// Greeting message based on time
+function greetUser() {
+    const now = new Date();
+    const hour = now.getHours();
+    let greeting;
+
+    if (hour < 12) {
+        greeting = "Good Morning!";
+    } else if (hour < 18) {
+        greeting = "Good Afternoon!";
+    } else {
+        greeting = "Good Evening!";
+    }
+
+    document.getElementById("greeting").innerText = greeting;
+}
+
+// Button click alert for joining classes
+function joinClass() {
+    alert("Thank you for your interest! We will contact you soon about the Math/Physics/Chemistry classes.");
+}
+
+// Run functions when page loads
+window.onload = function() {
+    showDate();
+    greetUser();
+};
