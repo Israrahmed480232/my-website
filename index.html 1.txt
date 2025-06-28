@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Physical Academy</title>
+    <style>
+        body {
+            background-color: #e6f2ff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+        }
+        header {
+            background-color: navy;
+            color: white;
+            padding: 20px;
+        }
+        nav {
+            margin: 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            background-color: #333;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .content {
+            background-color: white;
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Physical Academy</h1>
+    <p>Train Your Body, Train Your Mind</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Courses</a>
+    <a href="#">Trainers</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="content">
+    <h2>About Our Academy</h2>
+    <p>We offer professional physical training, fitness programs, and sports coaching for all age groups. Our goal is to help you achieve your best physical health.</p>
+    
+    <h3>Our Programs Include:</h3>
+    <ul>
+        <li>Fitness & Gym Training</li>
+        <li>Yoga & Meditation</li>
+        <li>Martial Arts & Self Defense</li>
+        <li>Sports Coaching (Football, Cricket, etc.)</li>
+        <li>Kids Physical Activities</li>
+    </ul>
+</div>
+
+<footer>
+    &copy; 2025 Physical Academy | All Rights Reserved
+</footer>
+
+</body>
+</html>
